@@ -17,11 +17,11 @@ namespace Demo.Domain.Employee
             _employeeRepository = employeeRepository;
         }
 
-        public IEmployee GetEmployee(int id)
+        public IEmployee GetEmployee(int employeeId)
         {
-            if(id <= 0)
+            if(employeeId <= 0)
                 throw new Exception("Invalid employee id");
-            return _employeeRepository.GetEmployee(id);
+            return _employeeRepository.GetEmployee(employeeId);
 
         }
     }

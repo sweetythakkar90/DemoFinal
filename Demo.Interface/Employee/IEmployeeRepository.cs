@@ -8,6 +8,6 @@ namespace Demo.Interface.Employee
 {
     public interface IEmployeeRepository
     {
-        IEmployee GetEmployee(int id);
+        IEmployee GetEmployee(int employeeId);
     }
 }

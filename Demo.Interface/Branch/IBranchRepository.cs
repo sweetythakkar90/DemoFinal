@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.Interface.Employee
+namespace Demo.Interface.Branch
 {
-    public interface IEmployeeService
+    public interface IBranchRepository
     {
-        IEmployee GetEmployee(int employeeId);
+        IBranch GetBranch(int branchId);
     }
 }

@@ -10,11 +10,11 @@ namespace Demo.Repository
 {
     public class EmployeeRepository : IEmployeeRepository
     {
-        public IEmployee GetEmployee(int id)
+        public IEmployee GetEmployee(int employeeId)
         {
-            return GetEmployeeById(id);
+            return GetEmployeeById(employeeId);
         }
-        private IEmployee GetEmployeeById(int id)
+        private IEmployee GetEmployeeById(int employeeId)
         {
             var employee = new Employee();
 

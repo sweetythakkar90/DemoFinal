@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Branch\Branch.cs" />
     <Compile Include="Company\Company.cs" />
+    <Compile Include="Company\CompanyService.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerService.cs" />
     <Compile Include="Database\DatabaseAssistant.cs" />

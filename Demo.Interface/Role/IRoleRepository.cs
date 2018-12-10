@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.Interface.Employee
+namespace Demo.Interface.Role
 {
-    public interface IEmployeeService
+    public interface IRoleRepository
     {
-        IEmployee GetEmployee(int employeeId);
+        IRole GetRole(int roleId);
     }
 }
