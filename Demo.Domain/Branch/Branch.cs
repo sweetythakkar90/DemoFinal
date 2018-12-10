@@ -14,6 +14,9 @@ namespace Demo.Domain.Branch
         public string BranchDescription { get; set; }
         public int CompanyId { get; set; }
         public bool Status { get; set; }
+        public DateTime when_created { get; set; }
+        public DateTime when_changed { get; set; }
+        public int changed_by { get; set; }
 
     }
 }

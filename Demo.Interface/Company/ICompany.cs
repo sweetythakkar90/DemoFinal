@@ -22,6 +22,9 @@ namespace Demo.Interface.Company
         string Postcode { get; set; }
         string State { get; set; }
         string Status { get; set; }
+        DateTime when_created { get; set; }
+        DateTime when_changed { get; set; }
+        int changed_by { get; set; }
 
     }
 }

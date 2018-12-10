@@ -13,6 +13,9 @@ namespace Demo.Interface.Branch
         string BranchDescription { get; set; }
         int CompanyId { get; set; }
         bool Status { get; set; }
+        DateTime when_created { get; set; }
+        DateTime when_changed { get; set; }
+        int changed_by { get; set; }
 
     }
 }

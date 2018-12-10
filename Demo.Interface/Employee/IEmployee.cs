@@ -20,6 +20,8 @@ namespace Demo.Interface.Employee
         int BranchId { get; set; }
         int JobTitleId { get; set; }
         int RoleId { get; set; }
+        DateTime JoiningDate { get; set; }
+        DateTime? TerminationDate { get; set; }
         string HomePhone { get; set; }
         string Mobile { get; set; }
         string UnitNo { get; set; }
@@ -32,5 +34,8 @@ namespace Demo.Interface.Employee
         string EmergencyRelation { get; set; }
         string Gender { get; set; }
         string BirthDate { get; set; }
+        DateTime when_created { get; set; }
+        DateTime when_changed { get; set; }
+        int changed_by { get; set; }
     }
 }

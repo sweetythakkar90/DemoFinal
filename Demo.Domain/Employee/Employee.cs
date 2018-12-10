@@ -21,6 +21,8 @@ namespace Demo.Domain.Employee
         public int BranchId { get; set; }
         public int JobTitleId { get; set; }
         public int RoleId { get; set; }
+        public DateTime JoiningDate { get; set; }
+        public DateTime? TerminationDate { get; set; }
         public string HomePhone { get; set; }
         public string Mobile { get; set; }
         public string UnitNo { get; set; }
@@ -33,5 +35,8 @@ namespace Demo.Domain.Employee
         public string EmergencyRelation { get; set; }
         public string Gender { get; set; }
         public string BirthDate { get; set; }
+        public DateTime when_created { get; set; }
+        public DateTime when_changed { get; set; }
+        public int changed_by { get; set; }
     }
 }

@@ -23,5 +23,8 @@ namespace Demo.Domain.Company
         public string Postcode { get; set; }
         public string State { get; set; }
         public string Status { get; set; }
+        public DateTime when_created { get; set; }
+        public DateTime when_changed { get; set; }
+        public int changed_by { get; set; }
     }
 }
