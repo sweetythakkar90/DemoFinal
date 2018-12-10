@@ -13,6 +13,8 @@ namespace Demo.Repository
         public ICustomer GetCustomer(int id)
         {
             Customer c = new Customer();
+
+            //call  db query here
             c.CustomerId = 123;
             c.FullName = "Test";
             return c;
@@ -23,4 +25,4 @@ namespace Demo.Repository
             return true;
         }
     }
-    }
+}
