@@ -73,6 +73,7 @@
     <Compile Include="Department\IDepartment.cs" />
     <Compile Include="Department\IDepartmentRepository.cs" />
     <Compile Include="Department\IDepartmentService.cs" />
+    <Compile Include="Employee\IEmployeeBonus.cs" />
     <Compile Include="Employee\IEmployeeSalary.cs" />
     <Compile Include="Employee\IEmployeeService.cs" />
     <Compile Include="Employee\IEmployee.cs" />
@@ -81,6 +82,9 @@
     <Compile Include="JobTitle\IJobTitle.cs" />
     <Compile Include="JobTitle\IJobTitleRepository.cs" />
     <Compile Include="JobTitle\IJobTitleService.cs" />
+    <Compile Include="Misc\ILeaveTypes.cs" />
+    <Compile Include="Misc\ILeaveTypesRepository.cs" />
+    <Compile Include="Misc\ILeaveTypesService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Role\IRole.cs" />
     <Compile Include="Role\IRoleRepository.cs" />

@@ -52,12 +52,29 @@ namespace Demo.Repository
                 SalaryFrequency = "Annual",
                 Status = true,
                 DateApplied = Convert.ToDateTime("12/08/208"),
-                Remarks =  "Inital Salary",
-                changed_by = 123,
-                when_changed = Convert.ToDateTime("12/08/208"),
-                when_created = Convert.ToDateTime("12/08/208")
+                SalaryRemarks =  "Inital Salary",
+                ChangedBy = 123,
+                WhenChanged = Convert.ToDateTime("12/08/208"),
+                WhenCreated = Convert.ToDateTime("12/08/208")
             });
             return employeeSalary;
+        }
+        public List<IEmployeeBonus> GetEmployeeBonus(int employeeId)
+        {
+            if (employeeId <= 0) throw new Exception("Invalid employeeId");
+            var employeeBonus = new List<IEmployeeBonus>();
+            employeeBonus.Add(new EmployeeBonus()
+            {
+                EmployeeId = 123,
+                BonusAmount = 1250,
+                Status = true,
+                BonusDate = Convert.ToDateTime("12/08/208"),
+                BonusRemarks = "Extra Work",
+                ChangedBy = 123,
+                WhenChanged = Convert.ToDateTime("12/08/208"),
+                WhenCreated = Convert.ToDateTime("12/08/208")
+            });
+            return employeeBonus;
         }
     }
 }

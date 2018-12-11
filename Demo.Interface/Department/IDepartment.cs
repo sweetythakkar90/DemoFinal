@@ -15,9 +15,9 @@ namespace Demo.Interface.Department
         int CompanyId { get; set; }
         string ColorCode { get; set; }
         bool Status { get; set; }
-        DateTime when_created { get; set; }
-        DateTime when_changed { get; set; }
-        int changed_by { get; set; }
+        DateTime WhenCreated { get; set; }
+        DateTime WhenChanged { get; set; }
+        int ChangedBy { get; set; }
 
     }
 }

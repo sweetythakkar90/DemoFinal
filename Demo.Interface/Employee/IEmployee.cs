@@ -34,9 +34,10 @@ namespace Demo.Interface.Employee
         string EmergencyRelation { get; set; }
         string Gender { get; set; }
         string BirthDate { get; set; }
-        DateTime when_created { get; set; }
-        DateTime when_changed { get; set; }
-        int changed_by { get; set; }
+        DateTime WhenCreated { get; set; }
+        DateTime WhenChanged { get; set; }
+        int ChangedBy { get; set; }
         List<IEmployeeSalary> EmployeeSalary { get; set; }
+        List<IEmployeeBonus> EmployeeBonus { get; set; }
     }
 }

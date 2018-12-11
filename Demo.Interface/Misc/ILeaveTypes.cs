@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo.Interface.Employee
+namespace Demo.Interface.Misc
 {
-    public interface IEmployeeSalary
+    public interface ILeaveTypes
     {
-        int EmployeeId { get; set; }
-        decimal SalaryAmount { get; set; }
-        string SalaryFrequency { get; set; }
+        int LeaveTypeId { get; set; }
+        string LeaveTypeName { get; set; }
+        string LeaveTypeDesc { get; set; }
         bool Status { get; set; }
-        DateTime DateApplied { get; set; }
-        string SalaryRemarks { get; set; }
         DateTime WhenCreated { get; set; }
         DateTime WhenChanged { get; set; }
         int ChangedBy { get; set; }

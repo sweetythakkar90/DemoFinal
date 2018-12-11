@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Demo.Interface.Branch;
+using Demo.Interface.Employee;
 
-namespace Demo.Domain.Branch
+namespace Demo.Domain.Employee
 {
-    public class Branch : IBranch
+    public class EmployeeBonus: IEmployeeBonus
     {
-        public int BranchId { get; set; }
-        public string BranchName { get; set; }
-        public string BranchDescription { get; set; }
-        public int CompanyId { get; set; }
+        public int EmployeeId { get; set; }
+        public decimal BonusAmount { get; set; }
+        public DateTime BonusDate { get; set; }
         public bool Status { get; set; }
+        public string BonusRemarks { get; set; }
         public DateTime WhenCreated { get; set; }
         public DateTime WhenChanged { get; set; }
         public int ChangedBy { get; set; }

@@ -35,9 +35,10 @@ namespace Demo.Domain.Employee
         public string EmergencyRelation { get; set; }
         public string Gender { get; set; }
         public string BirthDate { get; set; }
-        public DateTime when_created { get; set; }
-        public DateTime when_changed { get; set; }
-        public int changed_by { get; set; }
+        public DateTime WhenCreated { get; set; }
+        public DateTime WhenChanged { get; set; }
+        public int ChangedBy { get; set; }
         public List<IEmployeeSalary> EmployeeSalary { get; set; }
+        public List<IEmployeeBonus> EmployeeBonus { get; set; }
     }
 }

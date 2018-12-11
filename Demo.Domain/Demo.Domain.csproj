@@ -72,10 +72,13 @@
     <Compile Include="Department\Department.cs" />
     <Compile Include="Department\DepartmentService.cs" />
     <Compile Include="Employee\Employee.cs" />
+    <Compile Include="Employee\EmployeeBonus.cs" />
     <Compile Include="Employee\EmployeeSalary.cs" />
     <Compile Include="Employee\EmployeeService.cs" />
     <Compile Include="JobTitle\JobTitle.cs" />
     <Compile Include="JobTitle\JobTitleService.cs" />
+    <Compile Include="Misc\LeaveTypes.cs" />
+    <Compile Include="Misc\LeaveTypesService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Role\Role.cs" />
     <Compile Include="Role\RoleService.cs" />
@@ -92,7 +95,9 @@
       <Name>Demo.Interface</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Utilities\Enum\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

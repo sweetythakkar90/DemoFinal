@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Demo.Interface.Branch;
+using Demo.Interface.Misc;
 
-namespace Demo.Domain.Branch
+namespace Demo.Domain.Misc
 {
-    public class Branch : IBranch
+    public class LeaveTypes : ILeaveTypes
     {
-        public int BranchId { get; set; }
-        public string BranchName { get; set; }
-        public string BranchDescription { get; set; }
-        public int CompanyId { get; set; }
+        public int LeaveTypeId { get; set; }
+        public string LeaveTypeName { get; set; }
+        public string LeaveTypeDesc { get; set; }
         public bool Status { get; set; }
         public DateTime WhenCreated { get; set; }
         public DateTime WhenChanged { get; set; }

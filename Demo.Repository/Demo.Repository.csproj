@@ -67,6 +67,7 @@
     <Compile Include="DepartmentRepository.cs" />
     <Compile Include="EmployeeRepository.cs" />
     <Compile Include="JobTitleRepository.cs" />
+    <Compile Include="LeaveTypesRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoleRepository.cs" />
   </ItemGroup>
