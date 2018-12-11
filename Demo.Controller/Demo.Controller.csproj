@@ -68,6 +68,7 @@
     <Compile Include="DepartmentController.cs" />
     <Compile Include="EmployeeController.cs" />
     <Compile Include="JobTitleController.cs" />
+    <Compile Include="MiscController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoleController.cs" />
   </ItemGroup>

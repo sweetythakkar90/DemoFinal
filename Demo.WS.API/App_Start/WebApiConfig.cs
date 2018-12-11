@@ -14,6 +14,20 @@ using Demo.Interface.Customer;
 using Unity.Lifetime;
 using Demo.Repository;
 using Demo.Domain;
+using Demo.Domain.Branch;
+using Demo.Domain.Company;
+using Demo.Domain.Department;
+using Demo.Domain.Employee;
+using Demo.Domain.JobTitle;
+using Demo.Domain.Misc;
+using Demo.Domain.Role;
+using Demo.Interface.Branch;
+using Demo.Interface.Company;
+using Demo.Interface.Department;
+using Demo.Interface.Employee;
+using Demo.Interface.JobTitle;
+using Demo.Interface.Misc;
+using Demo.Interface.Role;
 
 namespace Demo.WS.API
 {
@@ -21,15 +35,13 @@ namespace Demo.WS.API
     {
         public static void Register(HttpConfiguration config)
         {
+            InitializeServices(config);
             // Web API configuration and services
             // Configure Web API to use only bearer token authentication.
             config.SuppressDefaultHostAuthentication();
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
-            var container = new UnityContainer();
-            container.RegisterType<ICustomerRepository, CustomerRepository>(new HierarchicalLifetimeManager());
-            container.RegisterType<ICustomerService, CustomerService>(new HierarchicalLifetimeManager());
-            config.DependencyResolver = new UnityResolver(container);
+            
            
             // Web API routes
             config.MapHttpAttributeRoutes();
@@ -42,6 +54,34 @@ namespace Demo.WS.API
             config.SuppressHostPrincipal();
             var jsonFormatter = config.Formatters.OfType<JsonMediaTypeFormatter>().First();
             jsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+        }
+
+        private static void InitializeServices(HttpConfiguration config)
+        {
+            var container = new UnityContainer();
+            container.RegisterType<ICustomerRepository, CustomerRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<ICustomerService, CustomerService>(new HierarchicalLifetimeManager());
+            container.RegisterType<ICompanyRepository, CompanyRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<ICompanyService, CompanyService>(new HierarchicalLifetimeManager());
+            container.RegisterType<IEmployeeRepository, EmployeeRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IEmployeeService, EmployeeService>(new HierarchicalLifetimeManager());
+            container.RegisterType<IDepartmentRepository, DepartmentRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IDepartmentService, DepartmentService>(new HierarchicalLifetimeManager());
+
+            container.RegisterType<IBranchRepository, BranchRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IBranchService, BranchService>(new HierarchicalLifetimeManager());
+
+            container.RegisterType<IRoleRepository, RoleRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IRoleService, RoleService>(new HierarchicalLifetimeManager());
+
+            container.RegisterType<IJobTitleRepository, JobTitleRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IJobTitleService, JobTitleService>(new HierarchicalLifetimeManager());
+
+            container.RegisterType<ILeaveTypesRepository, LeaveTypesRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<ILeaveTypesService, LeaveTypesService>(new HierarchicalLifetimeManager());
+
+           
+            config.DependencyResolver = new UnityResolver(container);
         }
     }
 }
