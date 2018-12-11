@@ -13,7 +13,7 @@ namespace Demo.Interface.Employee
         string FirstName { get; set; }
         string LastName { get; set; }
         string Email { get; set; }
-        string Username { get; set; }
+        string Password { get; set; }
         bool Status { get; set; }
         int CompanyId { get; set; }
         int DepartmentId { get; set; }
@@ -37,5 +37,6 @@ namespace Demo.Interface.Employee
         DateTime when_created { get; set; }
         DateTime when_changed { get; set; }
         int changed_by { get; set; }
+        List<IEmployeeSalary> EmployeeSalary { get; set; }
     }
 }

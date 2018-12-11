@@ -21,8 +21,16 @@ namespace Demo.Domain.Employee
         {
             if(employeeId <= 0)
                 throw new Exception("Invalid employee id");
-            return _employeeRepository.GetEmployee(employeeId);
+            var employee = _employeeRepository.GetEmployee(employeeId);
+            employee.EmployeeSalary = GetEmployeeSalary(employeeId);
+            return employee;
+        }
 
+        public List<IEmployeeSalary> GetEmployeeSalary(int employeeId)
+        {
+            if (employeeId <= 0) throw new Exception("Invalid employeeId");
+            List<IEmployeeSalary> employeeSalary = _employeeRepository.GetEmployeeSalary(employeeId);
+            return employeeSalary;
         }
     }
 }

@@ -64,7 +64,6 @@
     <Compile Include="Branch\IBranch.cs" />
     <Compile Include="Branch\IBranchRepository.cs" />
     <Compile Include="Branch\IBranchService.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Company\ICompany.cs" />
     <Compile Include="Company\ICompanyRepository.cs" />
     <Compile Include="Company\ICompanyService.cs" />
@@ -74,6 +73,7 @@
     <Compile Include="Department\IDepartment.cs" />
     <Compile Include="Department\IDepartmentRepository.cs" />
     <Compile Include="Department\IDepartmentService.cs" />
+    <Compile Include="Employee\IEmployeeSalary.cs" />
     <Compile Include="Employee\IEmployeeService.cs" />
     <Compile Include="Employee\IEmployee.cs" />
     <Compile Include="Employee\IEmployeeRepository.cs" />

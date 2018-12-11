@@ -38,8 +38,26 @@ namespace Demo.Repository
             //}
 
             employee.EmployeeId = 123;
-
             return employee;
+        }
+
+        public List<IEmployeeSalary> GetEmployeeSalary(int employeeId)
+        {
+            if (employeeId <= 0) throw new Exception("Invalid employeeId");
+            var employeeSalary = new List<IEmployeeSalary>();
+            employeeSalary.Add(new EmployeeSalary()
+            {
+                EmployeeId = 123,
+                SalaryAmount = 75000,
+                SalaryFrequency = "Annual",
+                Status = true,
+                DateApplied = Convert.ToDateTime("12/08/208"),
+                Remarks =  "Inital Salary",
+                changed_by = 123,
+                when_changed = Convert.ToDateTime("12/08/208"),
+                when_created = Convert.ToDateTime("12/08/208")
+            });
+            return employeeSalary;
         }
     }
 }

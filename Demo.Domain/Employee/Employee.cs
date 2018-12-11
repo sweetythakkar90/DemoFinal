@@ -14,7 +14,7 @@ namespace Demo.Domain.Employee
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
-        public string Username { get; set; }
+        public string Password { get; set; }
         public bool Status { get; set; }
         public int CompanyId { get; set; }
         public int DepartmentId { get; set; }
@@ -38,5 +38,6 @@ namespace Demo.Domain.Employee
         public DateTime when_created { get; set; }
         public DateTime when_changed { get; set; }
         public int changed_by { get; set; }
+        public List<IEmployeeSalary> EmployeeSalary { get; set; }
     }
 }
