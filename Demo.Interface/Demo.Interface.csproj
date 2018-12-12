@@ -82,6 +82,7 @@
     <Compile Include="JobTitle\IJobTitle.cs" />
     <Compile Include="JobTitle\IJobTitleRepository.cs" />
     <Compile Include="JobTitle\IJobTitleService.cs" />
+    <Compile Include="Misc\ILeaveApplication.cs" />
     <Compile Include="Misc\ILeaveTypes.cs" />
     <Compile Include="Misc\ILeaveTypesRepository.cs" />
     <Compile Include="Misc\ILeaveTypesService.cs" />

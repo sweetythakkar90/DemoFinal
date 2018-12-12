@@ -77,6 +77,7 @@
     <Compile Include="Employee\EmployeeService.cs" />
     <Compile Include="JobTitle\JobTitle.cs" />
     <Compile Include="JobTitle\JobTitleService.cs" />
+    <Compile Include="Misc\LeaveApplication.cs" />
     <Compile Include="Misc\LeaveTypes.cs" />
     <Compile Include="Misc\LeaveTypesService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
