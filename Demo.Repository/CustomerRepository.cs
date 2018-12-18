@@ -1,12 +1,7 @@
-﻿using Demo.Domain;
-using Demo.Interface.Customer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Hourly.Domain;
+using Hourly.Interface.Customer;
 
-namespace Demo.Repository
+namespace Hourly.Repository
 {
     public class CustomerRepository : ICustomerRepository
     {

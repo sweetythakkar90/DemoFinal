@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Data;
-
-namespace Demo.Domain.Database
+﻿namespace Hourly.Domain.Database
 {
     public interface IDatabaseAssistant
     {

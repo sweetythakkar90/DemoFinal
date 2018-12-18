@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Interface.Employee;
+using Hourly.Interface.Employee;
 
-namespace Demo.Domain.Employee
+namespace Hourly.Domain.Employee
 {
     public class EmployeeSalary : IEmployeeSalary
     {
         public int EmployeeId { get; set; }
+        public int CompanyId { get; set; }
+        public int BranchId { get; set; }
+        public int DepartmentId { get; set; }
         public decimal SalaryAmount { get; set; }
         public string SalaryFrequency { get; set; }
         public bool Status { get; set; }

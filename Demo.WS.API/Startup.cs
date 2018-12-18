@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Hourly.WS.API;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(Demo.WS.API.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
-namespace Demo.WS.API
+namespace Hourly.WS.API
 {
     public partial class Startup
     {

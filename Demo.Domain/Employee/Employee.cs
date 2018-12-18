@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Interface.Employee;
+using Hourly.Interface.Employee;
 
-namespace Demo.Domain.Employee
+namespace Hourly.Domain.Employee
 {
     public class Employee : IEmployee
     {

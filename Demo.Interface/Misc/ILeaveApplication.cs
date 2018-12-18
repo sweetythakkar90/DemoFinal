@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Demo.Interface.Misc
+namespace Hourly.Interface.Misc
 {
     public interface ILeaveApplication
     {
         int LeaveTypeId { get; set; }
         int EmployeeId { get; set; }
+        int CompanyId { get; set; }
+        int BranchId { get; set; }
+        int DepartmentId { get; set; }
         DateTime LeaveStartDate { get; set; }
         DateTime LeaveEndDate { get; set; }
         bool IsHalfDayLeave { get; set; }

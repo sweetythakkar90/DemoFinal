@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace Demo.FE.Models
+namespace Hourly.FE.Models
 {
     public class AppUser : IdentityUser
     {

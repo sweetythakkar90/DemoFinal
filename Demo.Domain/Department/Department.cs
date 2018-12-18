@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Interface.Department;
+using Hourly.Interface.Department;
 
-namespace Demo.Domain.Department
+namespace Hourly.Domain.Department
 {
     public class Department : IDepartment
     {

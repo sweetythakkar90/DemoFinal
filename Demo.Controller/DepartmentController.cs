@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Http;
-using Demo.Interface.Department;
 using System.Net;
-using Demo.Domain.Department;
+using System.Web.Http;
+using Hourly.Domain.Department;
+using Hourly.Interface.Department;
 using Swashbuckle.Swagger.Annotations;
 
-namespace Demo.Controller
+namespace Hourly.Controller
 {
     public class DepartmentController : ApiController
     {

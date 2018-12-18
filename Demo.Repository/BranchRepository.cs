@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Domain.Branch;
-using Demo.Interface.Branch;
+﻿using Hourly.Domain.Branch;
+using Hourly.Interface.Branch;
 
-namespace Demo.Repository
+namespace Hourly.Repository
 {
     public class BranchRepository : IBranchRepository
     {

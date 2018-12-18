@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Domain.JobTitle;
-using Demo.Interface.JobTitle;
+﻿using Hourly.Domain.JobTitle;
+using Hourly.Interface.JobTitle;
 
-namespace Demo.Repository
+namespace Hourly.Repository
 {
     public class JobTitleRepository : IJobTitleRepository
     {

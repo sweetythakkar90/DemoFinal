@@ -1,35 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
+﻿using System.Linq;
+using System.Net.Http.Formatting;
 using System.Web.Http;
+using Hourly.Domain;
+using Hourly.Domain.Branch;
+using Hourly.Domain.Company;
+using Hourly.Domain.Department;
+using Hourly.Domain.Employee;
+using Hourly.Domain.JobTitle;
+using Hourly.Domain.Misc;
+using Hourly.Domain.Role;
+using Hourly.Interface.Branch;
+using Hourly.Interface.Company;
+using Hourly.Interface.Customer;
+using Hourly.Interface.Department;
+using Hourly.Interface.Employee;
+using Hourly.Interface.JobTitle;
+using Hourly.Interface.Misc;
+using Hourly.Interface.Role;
+using Hourly.Repository;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
-using System.Net.Http.Formatting;
-using System.Web.Http.Dispatcher;
-using System.Reflection;
-using System.IO;
 using Unity;
-using Demo.Interface.Customer;
 using Unity.Lifetime;
-using Demo.Repository;
-using Demo.Domain;
-using Demo.Domain.Branch;
-using Demo.Domain.Company;
-using Demo.Domain.Department;
-using Demo.Domain.Employee;
-using Demo.Domain.JobTitle;
-using Demo.Domain.Misc;
-using Demo.Domain.Role;
-using Demo.Interface.Branch;
-using Demo.Interface.Company;
-using Demo.Interface.Department;
-using Demo.Interface.Employee;
-using Demo.Interface.JobTitle;
-using Demo.Interface.Misc;
-using Demo.Interface.Role;
 
-namespace Demo.WS.API
+namespace Hourly.WS.API
 {
     public static class WebApiConfig
     {

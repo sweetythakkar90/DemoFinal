@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo.WS.API</RootNamespace>
-    <AssemblyName>Demo.WS.API</AssemblyName>
+    <RootNamespace>Hourly.WS.API</RootNamespace>
+    <AssemblyName>Hourly.WS.API</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -331,21 +331,21 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo.Controller\Demo.Controller.csproj">
+    <ProjectReference Include="..\Demo.Controller\Hourly.Controller.csproj">
       <Project>{00a32612-5b36-4661-82be-69fdbbc3b6a0}</Project>
-      <Name>Demo.Controller</Name>
+      <Name>Hourly.Controller</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Demo.Domain\Demo.Domain.csproj">
+    <ProjectReference Include="..\Demo.Domain\Hourly.Domain.csproj">
       <Project>{09073288-87AF-494C-9B4F-ABE74EAE1589}</Project>
-      <Name>Demo.Domain</Name>
+      <Name>Hourly.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Demo.Interface\Demo.Interface.csproj">
+    <ProjectReference Include="..\Demo.Interface\Hourly.Interface.csproj">
       <Project>{47049E4E-4714-42D0-A01B-4CB08DC79B28}</Project>
-      <Name>Demo.Interface</Name>
+      <Name>Hourly.Interface</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Demo.Repository\Demo.Repository.csproj">
+    <ProjectReference Include="..\Demo.Repository\Hourly.Repository.csproj">
       <Project>{D315CCF0-6BAE-4B86-B6EE-F772D29F5B53}</Project>
-      <Name>Demo.Repository</Name>
+      <Name>Hourly.Repository</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

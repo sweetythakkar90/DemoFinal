@@ -1,15 +1,11 @@
-﻿using Swashbuckle.Swagger.Annotations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.Http;
-using Demo.Domain.Role;
-using Demo.Interface.Role;
+using Hourly.Domain.Role;
+using Hourly.Interface.Role;
+using Swashbuckle.Swagger.Annotations;
 
-namespace Demo.Controller
+namespace Hourly.Controller
 {
     public class RoleController: ApiController
     {

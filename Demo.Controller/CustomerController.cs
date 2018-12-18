@@ -1,16 +1,11 @@
-﻿using Demo.Interface.Customer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Net;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.Http;
+using Hourly.Domain;
+using Hourly.Interface.Customer;
 using Swashbuckle.Swagger.Annotations;
-using Demo.Domain;
 
-namespace Demo.Controller
+namespace Hourly.Controller
 {
     public class CustomerController : ApiController
     {

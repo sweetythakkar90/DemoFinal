@@ -1,11 +1,6 @@
-﻿using Demo.Interface.Customer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Hourly.Interface.Customer;
 
-namespace Demo.Domain
+namespace Hourly.Domain
 {
     public class Customer : ICustomer
     {

@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Demo.Interface.Employee
+namespace Hourly.Interface.Employee
 {
     public interface IEmployeeBonus
     {
         int EmployeeId { get; set; }
+        int CompanyId { get; set; }
+        int BranchId { get; set; }
+        int DepartmentId { get; set; }
         decimal BonusAmount { get; set; }
         DateTime BonusDate { get; set; }
         bool Status { get; set; }

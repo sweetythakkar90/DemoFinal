@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Domain", "Demo.Domain\Demo.Domain.csproj", "{09073288-87AF-494C-9B4F-ABE74EAE1589}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourly.Domain", "Demo.Domain\Hourly.Domain.csproj", "{09073288-87AF-494C-9B4F-ABE74EAE1589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Interface", "Demo.Interface\Demo.Interface.csproj", "{47049E4E-4714-42D0-A01B-4CB08DC79B28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourly.Interface", "Demo.Interface\Hourly.Interface.csproj", "{47049E4E-4714-42D0-A01B-4CB08DC79B28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Repository", "Demo.Repository\Demo.Repository.csproj", "{D315CCF0-6BAE-4B86-B6EE-F772D29F5B53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourly.Repository", "Demo.Repository\Hourly.Repository.csproj", "{D315CCF0-6BAE-4B86-B6EE-F772D29F5B53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Controller", "Demo.Controller\Demo.Controller.csproj", "{00A32612-5B36-4661-82BE-69FDBBC3B6A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourly.Controller", "Demo.Controller\Hourly.Controller.csproj", "{00A32612-5B36-4661-82BE-69FDBBC3B6A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WS.API", "Demo.WS.API\Demo.WS.API.csproj", "{0C05D486-2B4C-476F-9D5D-EBFA24FE0319}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourly.WS.API", "Demo.WS.API\Hourly.WS.API.csproj", "{0C05D486-2B4C-476F-9D5D-EBFA24FE0319}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.FE", "Demo.FE\Demo.FE.csproj", "{7F88E760-CFA0-4D95-ACD2-3CB76C9E4AE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourly.FE", "Demo.FE\Hourly.FE.csproj", "{7F88E760-CFA0-4D95-ACD2-3CB76C9E4AE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

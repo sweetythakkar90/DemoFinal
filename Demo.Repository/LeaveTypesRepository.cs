@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Domain.Misc;
-using Demo.Interface.Misc;
+﻿using Hourly.Domain.Misc;
+using Hourly.Interface.Misc;
 
-namespace Demo.Repository
+namespace Hourly.Repository
 {
     public class LeaveTypesRepository : ILeaveTypesRepository
     {

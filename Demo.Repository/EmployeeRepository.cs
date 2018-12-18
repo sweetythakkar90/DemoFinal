@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Domain.Employee;
-using Demo.Interface.Employee;
+using Hourly.Domain.Employee;
+using Hourly.Interface.Employee;
 
-namespace Demo.Repository
+namespace Hourly.Repository
 {
     public class EmployeeRepository : IEmployeeRepository
     {

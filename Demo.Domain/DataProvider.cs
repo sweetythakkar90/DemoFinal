@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Interface;
+﻿using System.Configuration;
+using Hourly.Interface;
 
-namespace Demo.Domain
+namespace Hourly.Domain
 {
     public class DataProvider : Ninject.Modules.NinjectModule
     {

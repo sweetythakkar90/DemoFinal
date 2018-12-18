@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Domain.Department;
-using Demo.Interface.Department;
+﻿using Hourly.Domain.Department;
+using Hourly.Interface.Department;
 
-namespace Demo.Repository
+namespace Hourly.Repository
 {
     public class DepartmentRepository : IDepartmentRepository
     {

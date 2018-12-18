@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Http;
-using Demo.Domain.Branch;
-using Demo.Interface.Branch;
 using System.Net;
+using System.Web.Http;
+using Hourly.Domain.Branch;
+using Hourly.Interface.Branch;
 using Swashbuckle.Swagger.Annotations;
 
-namespace Demo.Controller
+namespace Hourly.Controller
 {
     public class BranchController : ApiController
     {

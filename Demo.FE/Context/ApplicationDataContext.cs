@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using Demo.FE.Models;
+﻿using Hourly.FE.Models;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace Demo.FE.Context
+namespace Hourly.FE.Context
 {
     public class ApplicationDataContext : IdentityDbContext<AppUser>
     {

@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Interface.JobTitle;
+using Hourly.Interface.JobTitle;
 
-namespace Demo.Domain.JobTitle
+namespace Hourly.Domain.JobTitle
 {
     public class JobTitleService : IJobTitleService
     {

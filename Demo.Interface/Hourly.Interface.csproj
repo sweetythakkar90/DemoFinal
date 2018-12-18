@@ -7,8 +7,8 @@
     <ProjectGuid>{47049E4E-4714-42D0-A01B-4CB08DC79B28}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo.Interface</RootNamespace>
-    <AssemblyName>Demo.Interface</AssemblyName>
+    <RootNamespace>Hourly.Interface</RootNamespace>
+    <AssemblyName>hourly.Interface</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

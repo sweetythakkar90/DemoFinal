@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Domain.Role;
-using Demo.Interface.Role;
+﻿using Hourly.Domain.Role;
+using Hourly.Interface.Role;
 
-namespace Demo.Repository
+namespace Hourly.Repository
 {
     public class RoleRepository : IRoleRepository
     {

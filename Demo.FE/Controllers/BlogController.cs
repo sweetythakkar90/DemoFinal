@@ -1,7 +1,6 @@
 ﻿using System.Web.Mvc;
 
-
-namespace Demo.FE.Controllers
+namespace Hourly.FE.Controllers
 {
     
     

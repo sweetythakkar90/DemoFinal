@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Http;
-using Demo.Interface.Company;
 using System.Net;
-using Demo.Domain.Company;
+using System.Web.Http;
+using Hourly.Domain.Company;
+using Hourly.Interface.Company;
 using Swashbuckle.Swagger.Annotations;
 
-namespace Demo.Controller
+namespace Hourly.Controller
 {
     public class CompanyController : ApiController
     {

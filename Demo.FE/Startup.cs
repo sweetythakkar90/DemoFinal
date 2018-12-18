@@ -1,8 +1,9 @@
-﻿using Microsoft.Owin;
+﻿using Hourly.FE;
+using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(Demo.FE.Startup))]
-namespace Demo.FE
+[assembly: OwinStartup(typeof(Startup))]
+namespace Hourly.FE
 {
     public partial class Startup
     {

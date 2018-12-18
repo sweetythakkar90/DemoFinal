@@ -1,13 +1,8 @@
-﻿using Demo.Interface;
-using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Hourly.Interface;
 
-namespace Demo.Domain
+namespace Hourly.Domain
 {
     public class SqlConnectionFactory : IDbConnectionFactory
     {

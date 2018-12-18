@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Interface.Misc;
+using Hourly.Interface.Misc;
 
-namespace Demo.Domain.Misc
+namespace Hourly.Domain.Misc
 {
     public class LeaveTypesService : ILeaveTypesService
     {

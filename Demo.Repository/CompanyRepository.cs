@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Domain.Company;
-using Demo.Interface.Company;
+﻿using Hourly.Domain.Company;
+using Hourly.Interface.Company;
 
-namespace Demo.Repository
+namespace Hourly.Repository
 {
     public class CompanyRepository : ICompanyRepository
     {
