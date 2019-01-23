@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Hourly.WS.API
+namespace Hourly.WS.API.App_Start
 {
     public class FilterConfig
     {

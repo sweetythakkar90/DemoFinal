@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Hourly.WS.API
+namespace Hourly.WS.API.App_Start
 {
     public class RouteConfig
     {

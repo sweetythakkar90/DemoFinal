@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace Demo.WS.API.Areas.HelpPage.ModelDescriptions
+namespace Hourly.WS.API.Areas.HelpPage.ModelDescriptions
 {
     internal static class ModelNameHelper
     {

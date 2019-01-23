@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Demo.WS.API.Areas.HelpPage.ModelDescriptions;
-using Demo.WS.API.Areas.HelpPage.Models;
+using Hourly.WS.API.Areas.HelpPage.ModelDescriptions;
+using Hourly.WS.API.Areas.HelpPage.Models;
 
-namespace Demo.WS.API.Areas.HelpPage.Controllers
+namespace Hourly.WS.API.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

@@ -1,4 +1,4 @@
-namespace Demo.WS.API.Areas.HelpPage.ModelDescriptions
+namespace Hourly.WS.API.Areas.HelpPage.ModelDescriptions
 {
     public class EnumValueDescription
     {

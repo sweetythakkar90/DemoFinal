@@ -6,11 +6,11 @@ using System.Web;
 using WebActivatorEx;
 using System.Web.Http;
 using Swashbuckle.Application;
-using Demo.WS.API;
+using Hourly.WS.API;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace Demo.WS.API
+namespace Hourly.WS.API
 {
     public class SwaggerConfig
     {
@@ -37,7 +37,7 @@ namespace Demo.WS.API
                     // hold additional metadata for an API. Version and title are required but you can also provide
                     // additional fields by chaining methods off SingleApiVersion.
                     //
-                    c.SingleApiVersion("v1", "Demo.WS.API");
+                    c.SingleApiVersion("v1", "Hourly.WS.API");
 
                     // If you want the output Swagger docs to be indented properly, enable the "PrettyPrint" option.
                     //
@@ -106,7 +106,7 @@ namespace Demo.WS.API
                     // those comments into the generated docs and UI. You can enable this by providing the path to one or
                     // more Xml comment files.
                     //
-                    c.IncludeXmlComments(string.Format(@"{0}\bin\Demo.Controller.XML", System.AppDomain.CurrentDomain.BaseDirectory));
+                    c.IncludeXmlComments(string.Format(@"{0}\bin\Hourly.Controller.XML", System.AppDomain.CurrentDomain.BaseDirectory));
 
                     // Swashbuckle makes a best attempt at generating Swagger compliant JSON schemas for the various types
                     // exposed in your API. However, there may be occasions when more control of the output is needed.

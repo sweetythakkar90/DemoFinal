@@ -886,9 +886,9 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 
     $.support.transition && this.$element.hasClass('fade') ?
       this.$element
-        .one($.support.transition.end, $.proxy(this.hideModal, this))
+        .one($.support.transition.end, $.proxy(this.hiHourly.al, this))
         .emulateTransitionEnd(300) :
-      this.hideModal()
+      this.hiHourly.al()
   }
 
   Modal.prototype.enforceFocus = function () {
@@ -911,7 +911,7 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
     }
   }
 
-  Modal.prototype.hideModal = function () {
+  Modal.prototype.hiHourly.al = function () {
     var that = this
     this.$element.hide()
     this.backdrop(function () {

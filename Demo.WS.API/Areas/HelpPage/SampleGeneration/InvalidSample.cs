@@ -1,6 +1,6 @@
 using System;
 
-namespace Demo.WS.API.Areas.HelpPage
+namespace Hourly.WS.API.Areas.HelpPage
 {
     /// <summary>
     /// This represents an invalid sample on the help page. There's a display template named InvalidSample associated with this class.

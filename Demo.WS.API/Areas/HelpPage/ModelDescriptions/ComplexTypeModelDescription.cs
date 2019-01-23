@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace Demo.WS.API.Areas.HelpPage.ModelDescriptions
+namespace Hourly.WS.API.Areas.HelpPage.ModelDescriptions
 {
     public class ComplexTypeModelDescription : ModelDescription
     {

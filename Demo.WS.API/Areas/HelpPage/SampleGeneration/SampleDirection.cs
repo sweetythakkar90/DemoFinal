@@ -1,4 +1,4 @@
-namespace Demo.WS.API.Areas.HelpPage
+namespace Hourly.WS.API.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

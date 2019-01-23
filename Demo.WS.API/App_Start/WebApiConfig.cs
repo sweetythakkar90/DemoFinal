@@ -23,7 +23,7 @@ using Newtonsoft.Json.Serialization;
 using Unity;
 using Unity.Lifetime;
 
-namespace Hourly.WS.API
+namespace Hourly.WS.API.App_Start
 {
     public static class WebApiConfig
     {

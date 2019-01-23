@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace Demo.WS.API.Areas.HelpPage
+namespace Hourly.WS.API.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

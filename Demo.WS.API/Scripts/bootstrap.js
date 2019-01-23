@@ -950,9 +950,9 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
 
     $.support.transition && this.$element.hasClass('fade') ?
       this.$element
-        .one($.support.transition.end, $.proxy(this.hideModal, this))
+        .one($.support.transition.end, $.proxy(this.hiHourly.al, this))
         .emulateTransitionEnd(300) :
-      this.hideModal()
+      this.hiHourly.al()
   }
 
   Modal.prototype.enforceFocus = function () {
@@ -975,7 +975,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     }
   }
 
-  Modal.prototype.hideModal = function () {
+  Modal.prototype.hiHourly.al = function () {
     var that = this
     this.$element.hide()
     this.backdrop(function () {

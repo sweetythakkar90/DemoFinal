@@ -1,8 +1,9 @@
 ﻿using Hourly.WS.API;
 using Microsoft.Owin;
 using Owin;
+using Startup = Hourly.WS.API.App_Start;
 
-[assembly: OwinStartup(typeof(Startup))]
+[assembly: OwinStartup(typeof(Hourly.WS.API.Startup))]
 
 namespace Hourly.WS.API
 {

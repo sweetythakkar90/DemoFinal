@@ -845,7 +845,7 @@ window.Modernizr = (function( window, document, undefined ) {
     };
 
     // specifically for SVG inline in HTML, not within XHTML
-    // test page: paulirish.com/demo/inline-svg
+    // test page: paulirish.com/Hourly.inline-svg
     tests['inlinesvg'] = function() {
       var div = document.createElement('div');
       div.innerHTML = '<svg/>';
@@ -858,7 +858,7 @@ window.Modernizr = (function( window, document, undefined ) {
     };
 
     // This test is only for clip paths in SVG proper, not clip paths on HTML content
-    // demo: srufaculty.sru.edu/david.dailey/svg/newstuff/clipPath4.svg
+    // Hourly. srufaculty.sru.edu/david.dailey/svg/newstuff/clipPath4.svg
 
     // However read the comments to dig into applying SVG clippaths to HTML content here:
     //   github.com/Modernizr/Modernizr/issues/213#issuecomment-1149491
